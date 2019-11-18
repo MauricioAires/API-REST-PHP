@@ -1,0 +1,10 @@
+# Redirecionar quando for feito uma requição para um arquivo não encontrado
+ErrorDocument 404 /composer/404.php
+
+# Redirecionar quando for feito uma requição para um diretorio.
+ErrorDocument 403 /composer/404.php
+
+# Bloquear a listagem de arquivos e pastas
+Options -Indexes 
+
+
